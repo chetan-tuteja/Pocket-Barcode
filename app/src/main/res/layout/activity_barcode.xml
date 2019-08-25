@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BarcodeActivity">
+
+    <SurfaceView android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/scannerView"
+                 android:layout_above="@+id/displayTV"
+                 android:layout_alignParentTop="true"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:textIsSelectable="true"
+              android:textSize="18sp"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textAlignment="center"
+              android:id="@+id/displayTV"
+              android:paddingBottom="40dp"
+    />
+
+</RelativeLayout>

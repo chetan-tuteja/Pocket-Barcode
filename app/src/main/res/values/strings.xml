@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pocket Barcode</string>
+    <string name="app_desc">Pocket Barcode!</string>
+    <string name="get_started">Get Started</string>
+    <string name="low_storage">Your Storage is low. Please free some space.</string>
+    <string name="need_permission">This app won\'t work without the permission.</string>
+</resources>
